@@ -1,7 +1,7 @@
 <div class="app">
   <h1>SlideContentAngular</h1>
   <img
-    width="300"
+    width="200"
     alt="Angular Logo"
     src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg=="
   />
@@ -15,7 +15,7 @@
       </svg>
       <span>Slide infinito</span>
     </h2>
-    <app-slide-content>
+    <app-slide-content name="Exemplo 1" type="infinite" [nav]="true" [animation]="{ 'disabled': true }">
       <app-slide-item class="favela" [actived]="true" title="Fé em Deus"
       img="/assets/faveladascriancas.jpg" url="https://www.instagram.com/p/B68pN_Ph9IZ" target="_blank"></app-slide-item>
       <app-slide-item title="Ermelino Matarazzo"
@@ -31,7 +31,7 @@
       </svg>
       <span>Slide sem navegação</span>
     </h2>
-    <app-slide-content>
+    <app-slide-content name="Exemplo 2" [nav]="false">
       <app-slide-item title="Fé em Deus"
       img="/assets/faveladascriancas.jpg" url="https://www.instagram.com/p/B68pN_Ph9IZ" target="_blank"></app-slide-item>
       <app-slide-item [actived]="true" title="Ermelino Matarazzo"
@@ -46,7 +46,7 @@
       </svg>
       <span>Slide com duração de 10 segundos</span>
     </h2>
-    <app-slide-content>
+    <app-slide-content name="Exemplo 3" type="simple" [nav]="true" [animation]="{ direction: 'prev', time: 10000 }">
       <app-slide-item title="Fé em Deus"
       img="/assets/faveladascriancas.jpg" url="https://www.instagram.com/p/B68pN_Ph9IZ" target="_blank"></app-slide-item>
       <app-slide-item [actived]="true" title="Ermelino Matarazzo"

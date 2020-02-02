@@ -15,9 +15,6 @@ export class SlideItemComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    if(this.actived) {
-      console.log(this.actived)
-    }
   }
 
 }
