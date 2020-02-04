@@ -1,3 +1,5 @@
+@import "../../../mixins/_responsive"
+
 .footer
   padding 3em 0
   a
@@ -7,5 +9,7 @@
     font-size 1.5em
     text-decoration none
     color #000
+    +mobile()
+      font-size 1em
   svg
     margin-right .5em

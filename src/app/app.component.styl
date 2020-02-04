@@ -1,3 +1,5 @@
+@import "../mixins/_responsive"
+
 @font-face
   font-family "Deus"
   src url(https://rimafavela.web.app/fonts/deus.0ea8c3f0.ttf),url(https://rimafavela.web.app/fonts/deus.87fcee5b.woff2),url(https://rimafavela.web.app/fonts/deus.94931b27.woff)
@@ -14,6 +16,8 @@ body
   margin-top 60px
   h1
     font-size 3em
+    +mobile()
+      font-size 2em
 
 .slide-title, h3
   display flex
@@ -28,6 +32,8 @@ body
   border-top 3px dashed #ccc
   padding-top 2em
   color #dd0031
+  +mobile()
+    font-size 1em
   svg
     fill #dd0031
 .favela
