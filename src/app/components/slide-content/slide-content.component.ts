@@ -7,7 +7,7 @@ import { Component, OnInit, ViewChild, ElementRef, Input } from '@angular/core';
 })
 export class SlideContentComponent implements OnInit {
 
-  @ViewChild('slideWrapper', { static: false }) content:ElementRef;
+  @ViewChild('slideWrapper') content:ElementRef;
 
   @Input('name') name: string;
   @Input('type') type: string;
