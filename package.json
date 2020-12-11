@@ -1,6 +1,11 @@
 {
   "name": "slidecontent-angular",
   "version": "0.0.0",
+  "author": "lucasferreiralimax (https://github.com/lucasferreiralimax)",
+  "repository": "https://github.com/lucasferreiralimax/slidecontent-angular",
+  "bugs": {
+    "url": "https://github.com/lucasferreiralimax/slidecontent-angular/issues"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
