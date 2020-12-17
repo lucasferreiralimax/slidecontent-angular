@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { SlideFooterComponent } from './slide-footer.component';
 
@@ -6,7 +6,7 @@ describe('SlideFooterComponent', () => {
   let component: SlideFooterComponent;
   let fixture: ComponentFixture<SlideFooterComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ SlideFooterComponent ]
     })
