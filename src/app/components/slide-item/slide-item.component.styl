@@ -1,7 +1,7 @@
 .slide-item
   opacity 0
   transition .3s
-  height 100vh
+  height 100%
   position absolute
   top 0
   bottom 0
@@ -24,13 +24,17 @@
     position absolute
     left 50%
     top 1em
-    transform translateX(-50%)
+    transform translate(-50%, 50%)
     background rgba(#fff, .7)
     padding .5em
     font-size 2em
     width 100%
     text-align center
     z-index 1
+    box-sizing border-box
+    margin 0
+    +tablet()
+      font-size 3em
 @keyframes opacityDelay
   0%
     opacity 0
