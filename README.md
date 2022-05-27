@@ -3,7 +3,7 @@
 [Live preview Project Online angular-slidecontent.web.app](https://angular-slidecontent.web.app).
 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.22.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.7
 
 ## Development server
 
