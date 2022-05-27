@@ -3,7 +3,7 @@ import { Component, OnInit, ViewChild, ElementRef, Input } from '@angular/core';
 @Component({
   selector: 'app-slide-content',
   templateUrl: './slide-content.component.html',
-  styleUrls: ['./slide-content.component.styl']
+  styleUrls: ['./slide-content.component.scss']
 })
 export class SlideContentComponent implements OnInit {
 
