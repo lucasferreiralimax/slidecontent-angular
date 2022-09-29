@@ -107,7 +107,6 @@
       }
     }
   },
-  "defaultProject": "slidecontent-angular",
   "cli": {
     "analytics": "6b10cc30-af0c-43f4-8469-d77dcc36ec01"
   }
