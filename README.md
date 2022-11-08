@@ -1,4 +1,4 @@
-# Slidecontent-Angular
+# SlideContentAngular
 
 [Live preview Project Online angular-slidecontent.web.app](https://angular-slidecontent.web.app).
 

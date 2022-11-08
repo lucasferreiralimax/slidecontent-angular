@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SlideNavComponent } from './slide-nav.component';
+import { AppNavigationComponent } from './app-navigation.component';
 
-describe('SlideNavComponent', () => {
-  let component: SlideNavComponent;
-  let fixture: ComponentFixture<SlideNavComponent>;
+describe('AppNavigationComponent', () => {
+  let component: AppNavigationComponent;
+  let fixture: ComponentFixture<AppNavigationComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SlideNavComponent ]
+      declarations: [ AppNavigationComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(SlideNavComponent);
+    fixture = TestBed.createComponent(AppNavigationComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
